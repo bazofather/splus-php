@@ -1,0 +1,50 @@
+{
+    "name": "bazofather/splus-php",
+    "description": "splus messenger bot sdk in php",
+    "version": "0.1.0",
+    "homepage": "https://github.com/bazofather/splus-php",
+    "keywords": [
+        "bot",
+        "splus",
+        "messenger",
+        "bazofather",
+        "botfather",
+        "telegram bot"
+    ],
+    "support": {
+        "issues": "https://github.com/bazofather/splus-php/issues",
+        "source": "https://github.com/bazofather/splus-php"
+    },
+    "authors": [
+        {
+            "name": "miladimos",
+            "email": "miladimos@outlook.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "symfony/http-client": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bazofather\\SplusBot\\": "./src"
+        },
+        "files": [
+            "./src/helpers.php"
+        ]
+    },
+    "scripts": {
+        "test": "vendor/bin/pest"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "MIT"
+}
