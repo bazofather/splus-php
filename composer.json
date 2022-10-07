@@ -30,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Bazofather\\SplusBot\\": "./src"
+            "Bazofather\\SPlus\\": "./src"
         },
         "files": [
             "./src/helpers.php"
